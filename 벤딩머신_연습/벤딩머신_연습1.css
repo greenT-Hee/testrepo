@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR&family=Noto+Sans:ital,wght@0,300;1,200&family=Rubik+Bubbles&display=swap');
+
+*{
+    font-family: 'Noto Sans KR';
+}
+
+body,img,p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#EAE8FE;
+    width: 100%
+}
+
+li{
+    list-style-type: none;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 82.88px;
+}
+
+.header img{
+    width: 386px;
+    height: 164.12px;
+}
+
+
+.wrapper-left{
+    margin: 247px 18px 100px 586px;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 360px;   
+    padding-bottom: 15px;
+}
+
+.select-drink{
+    margin: 0 auto;
+    margin-top: 31px ;
+    width: 332px;
+    
+}
+
+.box{
+    display: inline-block;
+    width: 94px;
+    height: 130px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 0 1px 5px 0 #969696;
+    /*border: 3px solid #6327FE;*/
+    text-align: center;
+    margin: 0 6px 12px 6px;
+}
+
+.box1{
+    border: 3px solid #6327FE;
+}
+
+.box img{
+    width: 35.86px;
+    height: 64.86px;
+    margin-top: 11.07px;
+
+}
+
+.box p{
+    font-size: 9px ;
+    font-weight: bold;
+}
+
+.box .price {
+    width: 70px;
+    height: 22px;
+    background-color: #6327FE;
+    border-radius: 50px;
+    margin: 7px 0 0 13px;
+}
+
+.box .price p{
+    text-align: center;
+    padding-top: 2.5px;
+    font-size: 12px;
+    color: white;  
+}
+
+.cost1{
+    display: inline-block;
+    width: 215px;
+    height: 33px;
+    margin: 0 6px 12px 14px;
+
+    background-color:#EAE8FE;
+    border-radius: 5px;
+}
+
+
+.cost1 p{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.cost2{
+    display: inline-block;
+    width: 100px;
+    height: 33px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px 0 #969696;
+}
+
+.cost2 p {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 0;
+}
+
+.cost3{
+    display: inline-block;
+    width: 215px;
+    height: 33px;
+    margin: 0 6px 12px 14px;
+    box-shadow: 0 0.5px 2px 0 #969696;
+    background-color:#ffffff;
+    border-radius: 5px;
+}
+
+.cost3 p{
+    font-size: 14px;
+    color: #969696;
+    font-weight: bold;
+    text-align: right;
+    padding: 6px 10px;
+}
+
+.count-wrapper{
+    width: 215px;
+    height: 100px;
+    margin-left: 10px;
+    background-color: #EAE8FE;
+    border-radius: 5px;
+}
+
+.count-box{
+    width: 160px;
+}
+
+.count-box li{
+    width: 160px;
+    height: 46px;
+    background-color: #ffffff;
+}
+
+.count-box img{
+    display: inline-block;
+    width: 18px;
+    height: 33px;
+
+}
+
+.count-box p{
+    display: inline-block;
+    font-size: 9px;
+    background-color: aqua;
+
+}
